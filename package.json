@@ -1,0 +1,22 @@
+{
+  "name": "sourcecred-airdrop",
+  "version": "1.0.0",
+  "description": "Contains scripts for formatting sourcecred output for airdrop app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Hive/sourcecred-airdrop.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/1Hive/sourcecred-airdrop/issues"
+  },
+  "homepage": "https://github.com/1Hive/sourcecred-airdrop#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
