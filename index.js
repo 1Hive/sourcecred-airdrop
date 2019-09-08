@@ -2,6 +2,7 @@ var argv = require('minimist')(process.argv.slice(2));
 const fs = require('fs');
 
 
+
 var jsonFile = argv._[0];
 var mappingsFile = argv._[1];
 
@@ -10,6 +11,9 @@ var mappings = JSON.parse(fs.readFileSync(mappingsFile));
 
 var addressToCred = credJson[1].credJSON.addressToCred
 let recipients = [] 
+
+
+console.log("address,contributor_type,points")
 for(key in addressToCred){
   for(name in mappings){
     if(key.includes(name)){
